@@ -2,18 +2,26 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Setting up my portfolio",
-  "main": "appjs",
+  "main": "app.js",
   "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js app.js",
     "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taufma8/Project6.git"
+    "url": "https://github.com/taufma8/Project6.git"
   },
   "author": "Maliha Taufiq",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/taufma8/Project6/issues"
   },
-  "homepage": "https://github.com/taufma8/Project6#readme"
+  "homepage": "https://github.com/taufma8/Project6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
