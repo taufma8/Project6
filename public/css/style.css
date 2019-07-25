@@ -51,21 +51,22 @@ a:hover{
   max-width: 100%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
-  border-radius: 0;
+  /* border-radius: 0; */
+  border-radius: 15px 15px 15px 15px; 
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: black;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
-    font-size: 14px;
-    color: #999;
+    font-size: 12px;
+    color: white;
   }
 
   .portfolio-me a{
@@ -79,13 +80,14 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: white;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background-color:black;
 }
 
  .portfolio-breadcrumb a{
@@ -95,33 +97,44 @@ a:hover{
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+   color: white;
  }
 
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  background-color:black;
+  color: white;
 }
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
+  color: white;
+
 }
 
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  background-color: black;
+  color: white;
 }
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    height: 100px;
+    width: 100px;
   }
 
   .portfolio-index a{
-    color: #222;
+    color: white;
   }
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+    background-color: black;
+    color: white;
   }
 
     .portfolio-index .cell h5{
@@ -142,7 +155,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: white;
 }
 
 .portfolio-bio{
