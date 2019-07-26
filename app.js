@@ -11,13 +11,12 @@ app.use(bodyParser.urlencoded({ extended: false}));
 //Update code in app to use Pug
 app.set('view engine', 'pug');
 
-//Using a static route and the express.static method to serve the static files located in the public folder.
+//Using a static route and the express.static method to serve the static files located in the public and images folder.
 app.use('/static', express.static('public'));
-app.use('/images', express.static('images'));
+// app.use('/images', express.static('images'));
 
 
 //Adding routes and sending strings to the client.
-
 //Merges the data with the templates to surf dynamic pages.
 //What will appear in the home section.
 app.get('/', (req, res) => {
@@ -42,7 +41,7 @@ app.get('/projects/:id', (req, res) => {
     });
 });
 
-//Handling errors: 404
+//Setting error: 404
 app.use((req, res, next) => {
     console.log('This page does not exist.');
     const err = new Error('This page cannot be found.');
