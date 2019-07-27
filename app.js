@@ -30,6 +30,7 @@ app.get('/about', (req, res) => {
 
 //Dynamic routes
 app.get('/projects/:id', (req, res) => {
+    console.log(req.params.id);
     if (req.params.id > data.projects.length || req.params.id <  1) {
         const err = new Error('This page cannot be found.');
         err.status = 404;
@@ -49,10 +50,20 @@ app.use((req, res, next) => {
     next(err);
 });
 
+// let status = err.status;
+// if (status === 'undefined') {
+//     status = 500;
+//     res.status(status);
+// }
+
 //Handling errors
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status);
+    let status = err.status;
+if (status === 'undefined') {
+    status = 500;
+    res.status(status);
+}
     res.render('error');
 });
 
