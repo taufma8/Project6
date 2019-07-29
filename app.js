@@ -1,7 +1,12 @@
 //Setting up express
 const express = require('express');
+
+//Setting up my data.json file
 const data = require('./data.json');
+
+//Using third party middleware
 const bodyParser = require('body-parser');
+
 const app = express();
 
 //Setting up middleware
@@ -11,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 //Update code in app to use Pug
 app.set('view engine', 'pug');
 
-//Using a static route and the express.static method to serve the static files located in the public and images folder.
+//Using a static route and the express.static method to serve the static files located in the public folder.
 app.use('/static', express.static('public'));
 // app.use('/images', express.static('images'));
 
@@ -28,7 +33,7 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//Dynamic routes
+//Dynamic routes to link project pages. If not there, throw error.
 app.get('/projects/:id', (req, res) => {
     // console.log(req.params.id);
     if (req.params.id > data.projects.length || req.params.id <  1) {

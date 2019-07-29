@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "A Random Quote Generator",
-            "description": "A program that displays a randomly selected quote each time a user clicks a button.",
+            "description": "A program that displays a randomly selected quote each time a user clicks the button.",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://taufma8.github.io/Project1/",
             "github_link": "https://github.com/taufma8/Project1",
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "project_name": "Game Show App",
-            "description": "A word guessing game to select a random phrase.",
+            "description": "A word guessing game for a random phrase.",
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
             "live_link": "https://taufma8.github.io/Project-4/",
             "github_link": "https://github.com/taufma8/Project-4",
