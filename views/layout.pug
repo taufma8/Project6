@@ -14,26 +14,28 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src="/images/MalihaTaufiq.jpeg")
+            img.thumbnail(src="/static/images/MalihaTaufiq.jpeg")
           .cell.auto
 
-            //- Add your name here.
             h5 Maliha Taufiq
 
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
               | A Full Stack Developer who specializes in JavaScript technologies across the whole stack (Node.js, Express). Experience building complete web applications with API systems.
 
-
-            //- Add about page route to the href below. 
+            
             a(href='/about') Learn More →
+            <br>
+            <br>
+            p.text-light
+              | Sponsored by:
+            <br>
+              img.thumbnail(src="/static/images/athena.jpg")
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Maliha Taufiq
       block content
         

@@ -7,7 +7,7 @@ In this Project, I learned how to work with Node.js, npm, Express and Pug to ren
 
  For extra credit, I setup my package.json file so that running npm start will run the app.
  I also used error handling middleware to render a Pug template.
- As for my CSS file, I changed the background color, color of the text and ____.
+ As for my CSS file, I changed the background color, color of the text and added a logo for sponsors.
 
 
-I am going for the "exceeds expectations" grade in this project. Thank you
+I am going for the "exceeds expectations" grade in this project. Thank you!

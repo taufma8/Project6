@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://taufma8.github.io/Project1/",
             "github_link": "https://github.com/taufma8/Project1",
-            "image_urls": ["/images/Project1.PNG", "/images/Project1-2.PNG"]
+            "image_urls": ["/static/images/Project1.PNG", "/static/images/Project1-2.PNG"]
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://taufma8.github.io/Project2/",
             "github_link": "https://github.com/taufma8/Project2",
-            "image_urls": ["/images/Project2.PNG", "/images/Project2-2.PNG"]
+            "image_urls": ["/static/images/Project2.PNG", "/static/images/Project2-2.PNG"]
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://taufma8.github.io/Project3/",
             "github_link": "https://github.com/taufma8/Project3",
-            "image_urls": ["/images/Project3.PNG", "/images/Project3-2.PNG"]
+            "image_urls": ["/static/images/Project3.PNG", "/static/images/Project3-2.PNG"]
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
             "live_link": "https://taufma8.github.io/Project-4/",
             "github_link": "https://github.com/taufma8/Project-4",
-            "image_urls": ["/images/Project4.PNG", "/images/Project4-2.PNG"]
+            "image_urls": ["/static/images/Project4.PNG", "/static/images/Project4-2.PNG"]
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "API"],
             "live_link": "https://taufma8.github.io/Project5/",
             "github_link": "https://github.com/taufma8/Project5",
-            "image_urls": ["/images/Project5.PNG", "/images/Project5-2.PNG"]
+            "image_urls": ["/static/images/Project5.PNG", "/static/images/Project5-2.PNG"]
         }
     ]
 }
