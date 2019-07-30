@@ -15,11 +15,11 @@ block content
      
       
       
-    each project in projects
-      .cell
-        a(href=`/projects/${project.id}`)
-          img.thumbnail(src=project.image_urls[0])
-          h5= project.project_name
-          p= project.description
+      each project in projects
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=project.image_urls[0])
+            h5= project.project_name
+            p= project.description
 
 
